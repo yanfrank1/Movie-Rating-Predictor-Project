@@ -19,10 +19,18 @@ Our results show that attention-based DL models achieve the best performance, wi
 
 ---
 ## File Description
-1. EE 541 Model Card.pdf: Summarize the Model and provide key information about our model.
-2. EE541_data_creater.ipynb: Import the dataset from Kaggle, and create the files needed for the movie predictors.
-3. EE541_project_rating_movies_5000Version_ablation_study.ipynb: Movie Rating Predictors, ablation study.
-5. EE541_project_rating_movies_full_dataset.ipynb: Movie Rating Predictors, trained on the entire movie dataset.
+
+1. **EE 541 Model Card.pdf**  
+   Provides a summary of the model, dataset, evaluation metrics, and intended use.
+
+2. **EE541_data_creater.ipynb**  
+   Downloads the dataset from Kaggle, cleans the data, and constructs the processed features used for model training.
+
+3. **EE541_project_rating_movies_5000Version_ablation_study.ipynb**  
+   Runs ablation studies to analyze how different features and modeling choices affect performance.
+
+4. **EE541_project_rating_movies_full_dataset.ipynb**  
+   Trains and evaluates all models on the full dataset of approximately 50,000 movies.
 
 ---
 
