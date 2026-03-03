@@ -62,3 +62,56 @@ Use data_creater.ipynb to create and split the dataset into training/validation/
 - **Timing Yang**  
   *University of Southern California*  
   timingya@usc.edu
+
+---
+
+## Author Contributions and Attribution
+
+This project was completed as part of the EE541 Machine Learning course at the University of Southern California.
+
+### Contributions by Frank Yan
+
+Frank Yan implemented the following components of the project:
+
+- Data preprocessing and feature engineering pipeline
+- Parsing and transforming categorical movie metadata (genres, keywords, cast, crew, production data) into numerical representations
+- Feature compression strategy for high-dimensional categorical features
+- Implementation of Machine Learning models:
+  - Bayesian Ridge Regression
+  - Support Vector Regression (SVR)
+  - Random Forest Regression
+
+### Contributions by Timing Yang
+
+Timing Yang contributed to the overall project design and collaborated on experimentation and evaluation of the models.
+
+- Experimentation with different dataset sizes and ablation studies
+- Implementation of Deep Learning models in PyTorch:
+  - Multi-Layer Perceptron (MLP)
+  - Attention-based neural network
+  - PCA-based model variants
+  
+### External Libraries and Tools
+
+This project uses several open-source libraries:
+
+- **Python**
+- **NumPy**
+- **Pandas**
+- **Scikit-learn**
+- **PyTorch**
+- **Matplotlib**
+
+All model implementations build upon these libraries' standard APIs.
+
+### Dataset Attribution
+
+The dataset used in this project is the **The Movies Dataset** available on Kaggle:
+
+https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+
+This dataset contains metadata for approximately 50,000 movies including genres, keywords, cast, crew, production information, and user ratings.
+
+All data used in this project is publicly available.
+
+---
